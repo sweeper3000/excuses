@@ -15,6 +15,7 @@ excuses = [
 	'I\'m going far away from here to escape the Mormons',
 	'I have to help clean the house',
 	'My family and I are going on a vacation',
+	'I\'m going to a sports game',
 ]
 
 """
@@ -30,4 +31,4 @@ excuses = [
 """
 
 # print random excuse from list
-print(random.choice(excuses))
+print("Your excuse is: " + random.choice(excuses))
